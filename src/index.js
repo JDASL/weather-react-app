@@ -1,5 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.css";
 import App from "./App";
 
 const rootElement = document.getElementById("root");
@@ -9,26 +11,5 @@ root.render(
   <StrictMode>
     <App />
     <i class="wi wi-day-lightning"></i>
-    <footer>
-      <small>
-        <a
-          href="https://github.com/JDASL/weather-react-app.git"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Open source code{" "}
-        </a>
-        by{" "}
-        <em>
-          <a
-            href="https://www.instagram.com/yourgurljd/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            JD Apirinya ✨
-          </a>
-        </em>
-      </small>
-    </footer>
   </StrictMode>
 );
