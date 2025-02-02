@@ -55,7 +55,7 @@ const WeatherApp = (props) => {
             Humidity: <strong> {weather.humidity}% </strong>{" "}
           </li>
           <li>
-            Wind: <strong> {weather.wind}km/h </strong>{" "}
+            Wind: <strong> {Math.round(weather.wind)}km/h </strong>{" "}
           </li>
           <li>
             <img src={weather.icon} alt={weather.description} />
