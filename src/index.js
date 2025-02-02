@@ -11,7 +11,10 @@ root.render(
     <App />
     <footer>
       <small>
-        <a href="" target="_blank">
+        <a
+          href="https://github.com/JDASL/weather-react-app.git"
+          target="_blank"
+        >
           Open source code
         </a>
         by{" "}
