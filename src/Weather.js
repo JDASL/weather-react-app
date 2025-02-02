@@ -46,7 +46,9 @@ const WeatherApp = (props) => {
         <br />
         <ul>
           <li>
-            Temperature: <strong> {Math.round(weather.temperature)}°C </strong>
+            Temperature:{" "}
+            <strong> {Math.round(weather.temperature)}°C | </strong>
+            {Math.round((weather.temperature * 9) / 5) + 32}°F
           </li>
           <li>
             Description: <strong> {weather.description} </strong>
