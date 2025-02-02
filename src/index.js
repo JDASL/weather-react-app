@@ -15,12 +15,14 @@ root.render(
           href="https://github.com/JDASL/weather-react-app.git"
           target="_blank"
         >
-          Open source code
+          Open source code{" "}
         </a>
         by{" "}
-        <a href="https://www.instagram.com/yourgurljd/" target="_blank">
-          JD Apirinya
-        </a>
+        <em>
+          <a href="https://www.instagram.com/yourgurljd/" target="_blank">
+            JD Apirinya ✨
+          </a>
+        </em>
       </small>
     </footer>
   </StrictMode>
