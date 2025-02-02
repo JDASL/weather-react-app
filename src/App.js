@@ -9,7 +9,6 @@ function App() {
       <header className="App-header">
         <h1>Welcome to Weather App</h1>
         <Weather city="Bangkok" />
-        <a className="App-link" target="_blank" rel="noopener noreferrer"></a>
       </header>
     </div>
   );
